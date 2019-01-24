@@ -1,7 +1,9 @@
 #include <iostream>
 using namespace std;
-void wffett();
-int main(){
-wffett();
-return 0;
+
+void showtime();
+int main()
+{
+	showtime();
+	return 0;
 }
