@@ -23,9 +23,7 @@ void make_main(string funname)
 	int dotnum=funname.find_last_of(".");
 	funname = funname.substr(0,dotnum);
 	ofstream out("main.cpp");
-	out << "#include <iostream>\n";
-	out << "using namespace std;\n";
-	out << endl;
+
 	out << "void " << funname << "()" << ";\n";
 	out << "int main()\n{\n";
 	out << "\t" << funname << "()" << ";\n";
